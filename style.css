@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Para chamar as tags do HTML basta escrever a tag e os {}*/
+body { 
+/*   position: relative;
+  width: 1024px;
+  height: 720px; */
+  background: linear-gradient(240.85deg, #041832 20.26%, #3468A7 80.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Para chamar as class do HTML basta colocar ponto(.) antes da class e os {}*/
+.container {
+  margin: 64px;
+  background: #DEDCDC;
+  color: #1C1C1C;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  border-radius: 20px;
+  padding: 64px; 
+}
+/*   padding = coloca borda nos itens dentro do elemento container */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #DEDCDC;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(241.85deg, #375B86 20.26%, #6B87A9 80.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #1C1C1C;
+  color: #FFFFFF;
+  border: 2px solid #f7f7f7;
+}
