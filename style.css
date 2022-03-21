@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Para chamar as tags do HTML basta escrever a tag e os {}*/
 body { 
-/*   position: relative;
-  width: 1024px;
-  height: 720px; */
   background: linear-gradient(240.85deg, #041832 20.26%, #3468A7 80.03%);
   font-family: 'Roboto', sans-serif;
 }
 
-/* Para chamar as class do HTML basta colocar ponto(.) antes da class e os {}*/
 .container {
   margin: 64px;
   background: #DEDCDC;
@@ -18,7 +13,6 @@ body {
   border-radius: 20px;
   padding: 64px; 
 }
-/*   padding = coloca borda nos itens dentro do elemento container */
 
 .cabecalho {
   display: flex;
@@ -34,6 +28,7 @@ body {
   max-height: 160px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
+
 .titulo {
   margin-left: 16px;
 }
@@ -103,3 +98,10 @@ body {
   color: #FFFFFF;
   border: 2px solid #f7f7f7;
 }
+
+/* Para chamar as tags do HTML basta escrever a tag e os {}*/
+/* Para chamar as class do HTML basta colocar ponto(.) antes da class e os {}*/
+/*  O padding = coloca borda nos itens dentro do elemento container */
+/* body = position: relative;
+             width: 1024px;
+            height: 720px; */
